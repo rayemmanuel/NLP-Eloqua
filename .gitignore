@@ -1,0 +1,48 @@
+# Python virtual environments
+**/venv/
+**/env/
+**/.venv/
+**/ENV/
+
+# Python caching
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# Log files
+**/*.log
+**/*.log.*
+
+# SQLite databases
+**/*.db
+**/*.sqlite3
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# User uploads / dynamic media
+**/uploads/
+**/uploads_body/
+
+# Local configuration
+**/.env
+**/.env.*
+!**/.env.example
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Flutter specific
+**/build/
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
